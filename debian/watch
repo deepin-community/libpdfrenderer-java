@@ -1,0 +1,4 @@
+version=3
+
+http://svn.java.net/svn/pdf-renderer~svn/tags/ release-([\d.]*)/ \
+  debian debian/orig-tar.sh

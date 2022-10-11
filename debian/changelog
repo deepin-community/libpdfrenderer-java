@@ -1,0 +1,24 @@
+libpdfrenderer-java (0.9.0-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:01:24 +0100
+
+libpdfrenderer-java (0.9.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Create orig tarball from SVN tag.
+  * Change Section: java.
+  * Change Build-Depends: default-jdk.
+  * Fix Depends.
+  * Use upstream provided build.xml file and remove debian/build.xml.
+  * Switch to source format 3.0.
+
+ -- Torsten Werner <twerner@debian.org>  Tue, 16 Aug 2011 16:52:43 +0200
+
+libpdfrenderer-java (0~20080829-1) unstable; urgency=low
+
+  * Initial release. (Closes: #497104)
+
+ -- Torsten Werner <twerner@debian.org>  Fri, 29 Aug 2008 23:54:36 +0200

@@ -1,0 +1,21 @@
+Source: libpdfrenderer-java
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>
+Build-Depends: ant, cdbs, debhelper (>= 5), default-jdk
+Standards-Version: 3.8.0
+Homepage: https://pdf-renderer.dev.java.net
+Vcs-Svn: svn+ssh://svn.debian.org/svn/pkg-java/trunk/libpdfrenderer-java
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/libpdfrenderer-java/
+
+Package: libpdfrenderer-java
+Architecture: all
+Depends: ${misc:Depends}
+Description: Java PDF renderer and viewer
+ The PDF Renderer is just what the name implies: an open source, all
+ Java library which renders PDF documents to the screen using Java2D.
+ Typically this means drawing into a Swing panel, but it could also draw
+ to other Graphics2D implementations. It could be used to draw on top of
+ PDFs, share them over a network, convert PDFs to PNG images, or maybe
+ even project PDFs into a 3D scene.
