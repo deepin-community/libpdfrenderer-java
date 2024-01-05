@@ -1,3 +1,14 @@
+libpdfrenderer-java (0.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Switch to debhelper level 7. (Closes: #965676)
+  * Declare compliance with Debian Policy 4.6.0.
+  * Use canonical VCS URI. (Closes: #670287)
+  * Remove get-orig-source target.
+  * Use tracker.debian.org as homepage because the old one is gone.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 07 Jan 2022 00:16:28 +0100
+
 libpdfrenderer-java (0.9.0-1.1) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.
