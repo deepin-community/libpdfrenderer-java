@@ -3,11 +3,11 @@ Section: java
 Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Uploaders: Torsten Werner <twerner@debian.org>
-Build-Depends: ant, cdbs, debhelper (>= 5), default-jdk
-Standards-Version: 3.8.0
-Homepage: https://pdf-renderer.dev.java.net
-Vcs-Svn: svn+ssh://svn.debian.org/svn/pkg-java/trunk/libpdfrenderer-java
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/libpdfrenderer-java/
+Build-Depends: ant, cdbs, debhelper (>= 7), default-jdk
+Standards-Version: 4.6.0
+Homepage: https://tracker.debian.org/pkg/libpdfrenderer-java
+Vcs-Git: https://salsa.debian.org/java-team/libpdfrenderer-java.git
+Vcs-Browser: https://salsa.debian.org/java-team/libpdfrenderer-java
 
 Package: libpdfrenderer-java
 Architecture: all

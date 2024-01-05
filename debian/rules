@@ -12,5 +12,3 @@ install/libpdfrenderer-java::
 	  /usr/share/java/pdfrenderer-$(DEB_UPSTREAM_VERSION).jar \
 	  /usr/share/java/pdfrenderer.jar
 
-get-orig-source:
-	uscan --download-version=$(DEB_UPSTREAM_VERSION) --force-download
